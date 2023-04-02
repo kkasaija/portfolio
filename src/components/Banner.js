@@ -4,8 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import headerImg from '../assets/img/header-img.svg';
-import './styles/Banner.css';
+// import headerImg from '../assets/img/header-img.svg';
+import headerImg from '../assets/img/ken1.png';
+import '../styles/Banner.css';
 
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -49,7 +50,7 @@ const Banner = () => {
     }, delta);
 
     return () => { clearInterval(ticker); };
-  }, [delta, tick]);
+  }, [text]);
 
   return (
     <section className="banner" id="home">
@@ -66,7 +67,7 @@ const Banner = () => {
                     <span
                       className="txt-rotate"
                       // dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
+                      data-rotate='[ "Front-end", "Back-end", "UI/UX Designer", "Ruby", "Ruby on Rails" ]'
                     >
                       <span
                         className="wrap"
@@ -76,10 +77,10 @@ const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and
-                    scrambled it to make a type specimen book.
+                    I’m a software developer! I can help you build a product,
+                    feature or website Look through some of my work and experience!
+                    If you like what you see and have a project you need coded,
+                    don’t hestiate to contact me
                   </p>
                   <button
                     type="button"

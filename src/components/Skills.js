@@ -1,13 +1,16 @@
 /* eslint-disable no-unused-vars */
 
 import Carousel from 'react-multi-carousel';
-import meter1 from '../assets/img/meter1.svg';
-import meter2 from '../assets/img/meter2.svg';
-import meter3 from '../assets/img/meter3.svg';
+import js from '../assets/img/js.svg';
+import react from '../assets/img/react-icon.svg';
+import redux from '../assets/img/redux-icon.svg';
+import ruby from '../assets/img/ruby-icon.svg';
+import rails from '../assets/img/rails-icon.png';
+import leader from '../assets/img/leader-icon.png';
+import colaborate from '../assets/img/colaborate-icon.png';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from '../assets/img/arrow1.svg';
-import arrow2 from '../assets/img/arrow2.svg';
 import colorSharp from '../assets/img/color-sharp.png';
+import '../styles/Skills.css';
 
 const Skills = () => {
   const responsive = {
@@ -18,15 +21,15 @@ const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 2,
     },
   };
 
@@ -38,12 +41,10 @@ const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry.
+                I have learned and developed a number of skills over time.
                 <br />
                 {' '}
-                Lorem Ipsum has been
-                the industrys standard dummy text.
+                Below are some of the skills I have developed and mastered.
               </p>
               <Carousel
                 responsive={responsive}
@@ -51,20 +52,32 @@ const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="alternative" />
-                  <h5>Web Development</h5>
+                  <img src={js} alt="javascript-icon" />
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="alternative" />
-                  <h5>Brand Identity</h5>
+                  <img src={react} alt="react-icon" />
+                  <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="alternative" />
-                  <h5>Logo Design</h5>
+                  <img src={redux} alt="redux-icon" />
+                  <h5>Redux</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="alternative" />
-                  <h5>Web Development</h5>
+                  <img src={ruby} alt="ruby-icon" />
+                  <h5>Ruby</h5>
+                </div>
+                <div className="item">
+                  <img src={rails} alt="rails-icon" />
+                  <h5>Ruby on Rails</h5>
+                </div>
+                <div className="item">
+                  <img src={leader} alt="leadership-icon" />
+                  <h5>Leadership</h5>
+                </div>
+                <div className="item">
+                  <img src={colaborate} alt="collaboration-icon" />
+                  <h5>Collaboration</h5>
                 </div>
               </Carousel>
             </div>

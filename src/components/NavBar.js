@@ -5,10 +5,10 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom';
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
-import './styles/Navbar.css';
+import linkedin from '../assets/img/linkedin-icon.svg';
+import twitter from '../assets/img/twitter-icon.svg';
+import github from '../assets/img/github-icon.svg';
+import '../styles/Navbar.css';
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState('home');
@@ -68,9 +68,9 @@ function NavBar() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://github.com/Kasaija-Kenneth/"><img src={navIcon1} alt="img" /></a>
-                <a href="https://twitter.com/kenn_ug/"><img src={navIcon2} alt="img" /></a>
-                <a href="https://www.linkedin.com/in/kasaija-kenneth/"><img src={navIcon3} alt="img" /></a>
+                <a href="https://github.com/Kasaija-Kenneth/"><img src={github} alt="img" /></a>
+                <a href="https://twitter.com/kenn_ug/"><img src={twitter} alt="img" /></a>
+                <a href="https://www.linkedin.com/in/kasaija-kenneth/"><img src={linkedin} alt="img" /></a>
               </div>
               <HashLink to="#connect">
                 <button className="vvd" type="button"><span>Let’s Connect</span></button>

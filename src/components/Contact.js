@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import TrackVisibility from 'react-on-screen';
 import contactImg from '../assets/img/contact-img.svg';
 import 'animate.css';
+import '../styles/Contact.css';
 
 const Contact = () => {
   const formInitialDetails = {
@@ -57,6 +58,12 @@ const Contact = () => {
               {({ isVisible }) => (
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                   <h2>Get In Touch</h2>
+                  <p>
+                    If you have an application you are interested in developing,
+                    a feature that you need built or a project that needs coding.
+                    I would love to help.
+                  </p>
+                  <br />
                   <form onSubmit={handleSubmit}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">

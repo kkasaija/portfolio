@@ -1,6 +1,5 @@
 .footer {
-  padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('../assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -83,4 +82,10 @@
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+.text-center.text-sm-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

@@ -1,8 +1,9 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import linkedin from '../assets/img/linkedin-icon.svg';
+import twitter from '../assets/img/twitter-icon.svg';
+import github from '../assets/img/github-icon.svg';
+import '../styles/Footer.css';
 
 const Footer = () => (
   <footer className="footer">
@@ -12,12 +13,12 @@ const Footer = () => (
           <img src={logo} alt="Logo" />
         </Col>
         <Col size={12} sm={6} className="text-center text-sm-end">
+          <p>Copyright 2023. All Rights Reserved</p>
           <div className="social-icon">
-            <a href="https://github.com/Kasaija-Kenneth/"><img src={navIcon1} alt="img" /></a>
-            <a href="https://twitter.com/kenn_ug/"><img src={navIcon2} alt="img" /></a>
-            <a href="https://www.linkedin.com/in/kasaija-kenneth/"><img src={navIcon3} alt="img" /></a>
+            <a href="https://github.com/Kasaija-Kenneth/"><img src={github} alt="img" /></a>
+            <a href="https://twitter.com/kenn_ug/"><img src={twitter} alt="img" /></a>
+            <a href="https://www.linkedin.com/in/kasaija-kenneth/"><img src={linkedin} alt="img" /></a>
           </div>
-          <p>Copyright 2022. All Rights Reserved</p>
         </Col>
       </Row>
     </Container>
