@@ -6,9 +6,9 @@ import {
 import TrackVisibility from 'react-on-screen';
 import { v4 as uuidv4 } from 'uuid';
 import ProjectCard from './ProjectCard';
-import projImg1 from '../assets/img/project-img1.png';
+import mealMaster from '../assets/img/meal-master-icon.png';
 import projImg2 from '../assets/img/project-img2.png';
-import projImg3 from '../assets/img/project-img3.png';
+import todoList from '../assets/img/todo-list.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import '../styles/Project.css';
@@ -16,9 +16,32 @@ import '../styles/Project.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg1,
+      title: 'meal-master',
+      description: `A web application for ordering food. Key features are Authentication and Authorization.
+      Users can select foods by theme, place orders, view their order history, and add or delete items (for admins only). 
+      The app includes a form for adding new items and a list of orders with food name, date, and city. Full API documentation is provided.`,
+      imgUrl: mealMaster,
+    },
+    {
+      title: 'tasty-trek',
+      description: `An app to keep track of all your recipes, ingredients,
+      and inventory. It will allow you to save ingredients, keep track of what
+      you have, create recipes, and generate a shopping list based on what you
+      have and what you are missing from a recipe`,
+      imgUrl: projImg2,
+    },
+    {
+      title: 'todo-list',
+      description: `A simple to-do list App for performing complete CRUD operations.
+      Built with React and Redux`,
+      imgUrl: todoList,
+    },
+    {
+      title: 'expense-tracker',
+      description: `A mobile, web based application where you can manage your budget:
+      allows one to register and log in, introduce new transactions associated with
+      a category, and see the money spent on each category`,
+      imgUrl: projImg2,
     },
     {
       title: 'Business Startup',
@@ -28,22 +51,7 @@ const Projects = () => {
     {
       title: 'Business Startup',
       description: 'Design & Development',
-      imgUrl: projImg3,
-    },
-    {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg1,
-    },
-    {
-      title: 'Business Startup',
-      description: 'Design & Development',
       imgUrl: projImg2,
-    },
-    {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg3,
     },
   ];
 
