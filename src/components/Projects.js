@@ -21,6 +21,7 @@ const Projects = () => {
       Users can select foods by theme, place orders, view their order history, and add or delete items (for admins only). 
       The app includes a form for adding new items and a list of orders with food name, date, and city. Full API documentation is provided.`,
       imgUrl: mealMaster,
+      demoLink: 'https://master-meal.netlify.app/',
     },
     {
       title: 'tasty-trek',
@@ -35,6 +36,7 @@ const Projects = () => {
       description: `A simple to-do list App for performing complete CRUD operations.
       Built with React and Redux`,
       imgUrl: todoList,
+      demoLink: 'https://kasaija-kenneth.github.io/To-Do-List/dist/',
     },
     {
       title: 'expense-tracker',
@@ -95,20 +97,14 @@ const Projects = () => {
                         }
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="section">
+                      <Tab.Pane eventKey="second">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam,
-                          quod neque provident velit, rem explicabo excepturi
-                          id illo molestiae blanditiis,eligendi dicta officiis asperiores
-                          delectus quasi inventore debitis quo.
+                          Under construction. Please check back later.
                         </p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                          Cumque quam, quod neque provident velit,
-                          rem explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi inventore debitis quo.
+                          Under construction. Please check back later.
                         </p>
                       </Tab.Pane>
                     </Tab.Content>
