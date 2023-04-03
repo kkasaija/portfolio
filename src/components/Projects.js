@@ -7,8 +7,10 @@ import TrackVisibility from 'react-on-screen';
 import { v4 as uuidv4 } from 'uuid';
 import ProjectCard from './ProjectCard';
 import mealMaster from '../assets/img/meal-master-icon.png';
-import projImg2 from '../assets/img/project-img2.png';
+import expenseTracker from '../assets/img/expense_tracker.png';
 import todoList from '../assets/img/todo-list.png';
+import calcBasic from '../assets/img/calc-icon.png';
+import spaceX from '../assets/img/spaceX.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import '../styles/Project.css';
@@ -29,7 +31,7 @@ const Projects = () => {
       and inventory. It will allow you to save ingredients, keep track of what
       you have, create recipes, and generate a shopping list based on what you
       have and what you are missing from a recipe`,
-      imgUrl: projImg2,
+      imgUrl: expenseTracker,
     },
     {
       title: 'todo-list',
@@ -43,17 +45,23 @@ const Projects = () => {
       description: `A mobile, web based application where you can manage your budget:
       allows one to register and log in, introduce new transactions associated with
       a category, and see the money spent on each category`,
-      imgUrl: projImg2,
+      imgUrl: expenseTracker,
+      demoLink: 'https://expense-meter.onrender.com/',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg2,
+      title: 'Basic Calculator',
+      description: `Performs: Addition, Subtraction, Division, Multiplication, Modulo (Remainder).
+      Developed using React and Deployed using Netlify`,
+      imgUrl: calcBasic,
+      demoLink: 'https://voluble-fairy-0cefaa.netlify.app/',
     },
     {
-      title: 'Business Startup',
-      description: 'Design & Development',
-      imgUrl: projImg2,
+      title: 'The space traveller\'s hub',
+      description: `This website lets you view Rocket varieties available at SpaceX.
+      With an option for rocket reservation and Space mission subscription.
+      Site developed in React-Redux`,
+      imgUrl: spaceX,
+      demoLink: 'https://capable-madeleine-7613ec.netlify.app/',
     },
   ];
 
