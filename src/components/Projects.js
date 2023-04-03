@@ -11,6 +11,7 @@ import expenseTracker from '../assets/img/expense_tracker.png';
 import todoList from '../assets/img/todo-list.png';
 import calcBasic from '../assets/img/calc-icon.png';
 import spaceX from '../assets/img/spaceX.png';
+import movieSite from '../assets/img/movies.png';
 import colorSharp2 from '../assets/img/color-sharp2.png';
 import 'animate.css';
 import '../styles/Project.css';
@@ -26,12 +27,13 @@ const Projects = () => {
       demoLink: 'https://master-meal.netlify.app/',
     },
     {
-      title: 'tasty-trek',
-      description: `An app to keep track of all your recipes, ingredients,
-      and inventory. It will allow you to save ingredients, keep track of what
-      you have, create recipes, and generate a shopping list based on what you
-      have and what you are missing from a recipe`,
-      imgUrl: expenseTracker,
+      title: 'movies site',
+      description: `This project is about building a web application based on an external API. 
+      The web app has 2 user interfaces: the home page and the comments popup.
+      The home page shows a list of items that you can like. Each item has a "Comments" button that you can use to open the comments popup.
+      The comments popup shows details about an item and allows users to leave comments.`,
+      imgUrl: movieSite,
+      demoLink: 'https://kasaija-kenneth.github.io/JavaScript-Capstone-Group-Project/dist/',
     },
     {
       title: 'todo-list',

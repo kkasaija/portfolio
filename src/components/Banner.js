@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-// import headerImg from '../assets/img/header-img.svg';
 import headerImg from '../assets/img/ken1.png';
 import '../styles/Banner.css';
 
@@ -14,7 +13,7 @@ const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['Front-end', 'Back-end', 'UI/UX Designer', 'Ruby', 'Ruby on Rails'];
+  const toRotate = ['Tel: +256(0)777-311748', 'Front-end', 'Back-end', 'UI/UX Designer', 'Ruby', 'Ruby on Rails'];
   const period = 2000;
 
   /* eslint-disable max-len */
