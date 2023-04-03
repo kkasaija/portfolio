@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
 .project {
   padding: 80px 0;
   position: relative;
@@ -120,17 +122,17 @@
 }
 
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 0.5em;
   font-weight: 700;
   letter-spacing: 0.8px;
-  line-height: 1.1em;
+  text-transform: uppercase;
 }
 
 .proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
+  font-size: 12px;
+  line-height: 0.7;
+  align-content: stretch;
+  cursor: pointer;
 }
 
 .background-image-right {
@@ -140,4 +142,12 @@
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.demoLink:hover {
+  color: #fff;
+  font-size: 38px;
+  cursor: pointer;
+  line-height: 0.6;
+  font-family: 'Bad Script', cursive;
 }
