@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import headerImg from '../assets/img/ken1.png';
@@ -65,7 +64,6 @@ const Banner = () => {
                     {' '}
                     <span
                       className="txt-rotate"
-                      // dataPeriod="1000"
                       data-rotate='[ "Front-end", "Back-end", "UI/UX Designer", "Ruby", "Ruby on Rails" ]'
                     >
                       <span
@@ -81,13 +79,6 @@ const Banner = () => {
                     If you like what you see and have a project you need coded,
                     don’t hestiate to contact me
                   </p>
-                  <button
-                    type="button"
-                    onClick={() => console.log('connect')}
-                  >
-                    Let’s Connect
-                    <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>

@@ -5,6 +5,7 @@ import {
 } from 'react-bootstrap';
 import TrackVisibility from 'react-on-screen';
 import { v4 as uuidv4 } from 'uuid';
+import SourceCode from './SourceCode';
 import ProjectCard from './ProjectCard';
 import mealMaster from '../assets/img/meal-master-icon.png';
 import expenseTracker from '../assets/img/expense_tracker.png';
@@ -67,6 +68,33 @@ const Projects = () => {
     },
   ];
 
+  const sourceLink = [
+    {
+      title: 'meal-master',
+      sourceLink: 'https://github.com/Kasaija-Kenneth/meal-master-frontend',
+    },
+    {
+      title: 'movies site',
+      sourceLink: 'https://github.com/Kasaija-Kenneth/JavaScript-Capstone-Group-Project/',
+    },
+    {
+      title: 'todo-list',
+      sourceLink: 'https://github.com/Kasaija-Kenneth/To-Do-List/',
+    },
+    {
+      title: 'expense-tracker',
+      sourceLink: 'https://github.com/Kasaija-Kenneth/expense_meter/',
+    },
+    {
+      title: 'Basic Calculator',
+      sourceLink: 'https://github.com/Kasaija-Kenneth/MathMagiciansApp/',
+    },
+    {
+      title: 'The space traveller\'s hub',
+      sourceLink: 'https://github.com/Kasaija-Kenneth/space-travellers-hub/',
+    },
+  ];
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -85,13 +113,10 @@ const Projects = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Live Demo-links</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="second">Source code-links</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? 'animate__animated animate__slideInUp' : ''}>
@@ -108,14 +133,16 @@ const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>
-                          Under construction. Please check back later.
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Under construction. Please check back later.
-                        </p>
+                        <Row>
+                          {
+                            sourceLink.map((project) => (
+                              <SourceCode
+                                key={uuidv4()}
+                                {...project}
+                              />
+                            ))
+                          }
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

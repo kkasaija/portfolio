@@ -7,6 +7,10 @@ nav.navbar {
   transition: 0.32s ease-in-out;
 }
 
+#logo {
+  width: 14rem;
+}
+
 nav.navbar.scrolled {
   padding: 0 0;
   background-color: #121212;
