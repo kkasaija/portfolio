@@ -2,6 +2,15 @@
 
 import Carousel from 'react-multi-carousel';
 import js from '../assets/img/js.svg';
+import saas from '../assets/img/saas.svg';
+import remote from '../assets/img/remote-work.svg';
+import postgres from '../assets/img/postgres.svg';
+import html from '../assets/img/html.svg';
+import github from '../assets/img/github.svg';
+import git from '../assets/img/git.svg';
+import devtools from '../assets/img/devtools.svg';
+import css from '../assets/img/css.svg';
+import bootstrap from '../assets/img/bootstrap.svg';
 import react from '../assets/img/react-icon.svg';
 import redux from '../assets/img/redux-icon.svg';
 import ruby from '../assets/img/ruby-icon.svg';
@@ -78,6 +87,42 @@ const Skills = () => {
                 <div className="item">
                   <img src={colaborate} alt="collaboration-icon" />
                   <h5>Collaboration</h5>
+                </div>
+                <div className="item">
+                  <img src={saas} alt="saas-icon" />
+                  <h5>Saas</h5>
+                </div>
+                <div className="item">
+                  <img src={postgres} alt="postgres-icon" />
+                  <h5>PostgreSQL</h5>
+                </div>
+                <div className="item">
+                  <img src={css} alt="css-icon" />
+                  <h5>Css</h5>
+                </div>
+                <div className="item">
+                  <img src={bootstrap} alt="bootstrap-icon" />
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={remote} alt="remote-icon" />
+                  <h5>Remote collaboration</h5>
+                </div>
+                <div className="item">
+                  <img src={devtools} alt="devtools-icon" />
+                  <h5>Dev-tools</h5>
+                </div>
+                <div className="item">
+                  <img src={git} alt="git-icon" />
+                  <h5>Git</h5>
+                </div>
+                <div className="item">
+                  <img src={github} alt="github-icon" />
+                  <h5>Github</h5>
+                </div>
+                <div className="item">
+                  <img src={html} alt="html5-icon" />
+                  <h5>HTML5</h5>
                 </div>
               </Carousel>
             </div>
