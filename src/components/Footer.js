@@ -15,9 +15,9 @@ const Footer = () => (
         <Col size={12} sm={6} className="text-center text-sm-end">
           <p>Copyright 2023. All Rights Reserved</p>
           <div className="social-icon">
-            <a href="https://github.com/Kasaija-Kenneth/"><img src={github} alt="img" /></a>
+            <a href="https://github.com/kkasaija/"><img src={github} alt="img" /></a>
             <a href="https://twitter.com/kenn_ug/"><img src={twitter} alt="img" /></a>
-            <a href="https://www.linkedin.com/in/kasaija-kenneth/"><img src={linkedin} alt="img" /></a>
+            <a href="https://www.linkedin.com/in/kkasaija/"><img src={linkedin} alt="img" /></a>
           </div>
         </Col>
       </Row>
