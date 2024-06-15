@@ -34,14 +34,14 @@ const Projects = () => {
       The home page shows a list of items that you can like. Each item has a "Comments" button that you can use to open the comments popup.
       The comments popup shows details about an item and allows users to leave comments.`,
       imgUrl: movieSite,
-      demoLink: 'https://kasaija-kenneth.github.io/JavaScript-Capstone-Group-Project/dist/',
+      demoLink: 'https://kkasaija.github.io/JavaScript-Capstone-Group-Project/dist/',
     },
     {
       title: 'todo-list',
       description: `A simple to-do list App for performing complete CRUD operations.
       Built with React and Redux`,
       imgUrl: todoList,
-      demoLink: 'https://kasaija-kenneth.github.io/To-Do-List/dist/',
+      demoLink: 'https://kkasaija.github.io/To-Do-List/dist/',
     },
     {
       title: 'expense-tracker',
@@ -71,27 +71,27 @@ const Projects = () => {
   const sourceLink = [
     {
       title: 'meal-master',
-      sourceLink: 'https://github.com/Kasaija-Kenneth/meal-master-frontend',
+      sourceLink: 'https://github.com/kkasaija/meal-master-frontend',
     },
     {
       title: 'movies site',
-      sourceLink: 'https://github.com/Kasaija-Kenneth/JavaScript-Capstone-Group-Project/',
+      sourceLink: 'https://github.com/kkasaija/JavaScript-Capstone-Group-Project/',
     },
     {
       title: 'todo-list',
-      sourceLink: 'https://github.com/Kasaija-Kenneth/To-Do-List/',
+      sourceLink: 'https://github.com/kkasaija/To-Do-List/',
     },
     {
       title: 'expense-tracker',
-      sourceLink: 'https://github.com/Kasaija-Kenneth/expense_meter/',
+      sourceLink: 'https://github.com/kkasaija/expense_meter/',
     },
     {
       title: 'Basic Calculator',
-      sourceLink: 'https://github.com/Kasaija-Kenneth/MathMagiciansApp/',
+      sourceLink: 'https://github.com/kkasaija/MathMagiciansApp/',
     },
     {
       title: 'The space traveller\'s hub',
-      sourceLink: 'https://github.com/Kasaija-Kenneth/space-travellers-hub/',
+      sourceLink: 'https://github.com/kkasaija/space-travellers-hub/',
     },
   ];
 
